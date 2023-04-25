@@ -240,22 +240,15 @@ const HeaderMenuContent = ({ float = "" }) => {
       data-menu-style="horizontal"
     >
       <li className="dropitem">
-        <a
-          href="/"
-          className={
-            route.pathname === home.routerPath ? "ui-active" : undefined  
-          }
-        >
-          <Link href={home.routerPath}>
-              <a
-                className={
-                  route.pathname === home.routerPath ? "ui-active" : undefined
-                }
-              >
-                {home.name}
-              </a>
-            </Link>
-        </a>
+        <Link href={home.routerPath}>
+          <a
+            className={
+              route.pathname === home.routerPath ? "ui-active" : undefined
+            }
+          >
+            {home.name}
+          </a>
+        </Link>
       </li>
       {/* End .dropitem */}
 

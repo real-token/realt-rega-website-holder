@@ -25,13 +25,18 @@ const FaqContent = () => {
               <div className="row">
                 <div className="col-lg-4 col-sm-6">
                   <p className="pb10">
-                    Arrived Holdings, Inc. ("Arrived"), as a manager of Arrived
-                    Homes, LLC operates the <span className="title-blue">arrived.com </span>website (the "Site") and
-                    is not a broker-dealer or investment advisor. All securities
-                    related activity is conducted through Dalmore Group LLC, a
-                    registered broker-dealer and member of <span className="title-blue">FINRA</span>/<span className="title-blue">SIPC</span>, located
-                    at 525 Green Place, Woodmere, NY 11598. You can review the
-                    <span className="title-blue">brokercheck for Dalmore</span>. An up-to-date <span className="title-blue">Dalmore Form CRS</span> is
+                    Arrived Holdings, Inc. (&quot;Arrived&quot;), as a manager
+                    of Arrived Homes, LLC operates the{" "}
+                    <span className="title-blue">arrived.com </span>website (the
+                    &quot;Site&quot;) and is not a broker-dealer or investment
+                    advisor. All securities related activity is conducted
+                    through Dalmore Group LLC, a registered broker-dealer and
+                    member of <span className="title-blue">FINRA</span>/
+                    <span className="title-blue">SIPC</span>, located at 525
+                    Green Place, Woodmere, NY 11598. You can review the
+                    <span className="title-blue">brokercheck for Dalmore</span>.
+                    An up-to-date{" "}
+                    <span className="title-blue">Dalmore Form CRS</span> is
                     available.
                   </p>
                   <p className="pb10">
@@ -50,13 +55,15 @@ const FaqContent = () => {
                   </p>
                   <p className="pb10">
                     Arrived Homes, LLC is conducting public offerings pursuant
-                    to Regulation A, as amended, through the Site. The <span className="title-blue">offering
-                    circular for Arrived Homes, LLC</span> is available. Past
-                    performance is no guarantee of future results. Investments
-                    such as those on the Arrived platform are speculative and
-                    involve substantial risks to consider before investing,
-                    outlined in the respective offering materials and including,
-                    but not limited to, illiquidity,
+                    to Regulation A, as amended, through the Site. The{" "}
+                    <span className="title-blue">
+                      offering circular for Arrived Homes, LLC
+                    </span>{" "}
+                    is available. Past performance is no guarantee of future
+                    results. Investments such as those on the Arrived platform
+                    are speculative and involve substantial risks to consider
+                    before investing, outlined in the respective offering
+                    materials and including, but not limited to, illiquidity,
                   </p>
                 </div>
                 <div className="col-lg-4 col-sm-6">
@@ -82,12 +89,12 @@ const FaqContent = () => {
                     of a particular offering can be accepted, and no part of the
                     purchase price can be received, until an offering statement
                     filed with the Securities and Exchange Commission (the
-                    "SEC") relating to that series has been qualified by the
-                    SEC. Any such offer may be withdrawn or revoked, without
-                    obligation or commitment of any kind, at any time before
-                    notice of acceptance given after the date of qualification
-                    by the SEC. An indication of interest involves no obligation
-                    or commitment of any kind.
+                    &quot;SEC&quot;) relating to that series has been qualified
+                    by the SEC. Any such offer may be withdrawn or revoked,
+                    without obligation or commitment of any kind, at any time
+                    before notice of acceptance given after the date of
+                    qualification by the SEC. An indication of interest involves
+                    no obligation or commitment of any kind.
                   </p>
                   <p className="pb10">
                     Investment overviews contained herein contain summaries of
@@ -132,7 +139,10 @@ const FaqContent = () => {
                   </p>
                   <p className="pb10">
                     For additional risk factors and disclaimer information, you
-                    can review our <span className="title-blue">communications disclaimer.</span>
+                    can review our{" "}
+                    <span className="title-blue">
+                      communications disclaimer.
+                    </span>
                   </p>
                 </div>
               </div>

@@ -59,8 +59,8 @@ const Index = () => {
         <div className="container">
           <div className="main-title text-center home-title">
             <h2>
-              We're <span className="title-blue">built</span> for people who
-              wants to invest in real estate, but don't want to buy a whole home
+              We&apos;re <span className="title-blue">built</span> for people who
+              wants to invest in real estate, but don&apos;t want to buy a whole home
               or deal with operational headaches.
             </h2>
             {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
@@ -162,7 +162,7 @@ const Index = () => {
       <section id="property-city" className="property-city pb30">
         <div className="container">
           <div className="main-title text-center home-title w75">
-            <h2 className="pb30">We're on a mission</h2>
+            <h2 className="pb30">We&apos;re on a mission</h2>
             <div className="mission-content">
               <h4 className="pb20">
                 At Arrived, our mission is to empower the world to build wealth
