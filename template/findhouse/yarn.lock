@@ -1629,6 +1629,11 @@ react-photoswipe-gallery@^2.2.1:
   resolved "https://registry.npmjs.org/react-photoswipe-gallery/-/react-photoswipe-gallery-2.2.1.tgz"
   integrity sha512-xaUKKmwRLCpEzB8+bU7yxjXvRBHaInpBcI6YQY0UOeFctHAL3jGRDk9j2YbwmlgN7kRStHTcyrSNxr+zSaOnKg==
 
+react-portal-tooltip@^2.4.7:
+  version "2.4.7"
+  resolved "https://registry.yarnpkg.com/react-portal-tooltip/-/react-portal-tooltip-2.4.7.tgz#77fd4a75760afecd116736c480485aa22cbbb740"
+  integrity sha512-ZOuCKpvu8rr6aS6nNjckd78qEgWyHZnKidZ9Yqrd0HR5K9NYJ7csb4duc0kEXeG8DiCWsLPU70o1EVP+MxlINg==
+
 react-pro-sidebar@^0.7.1:
   version "0.7.1"
   resolved "https://registry.npmjs.org/react-pro-sidebar/-/react-pro-sidebar-0.7.1.tgz"

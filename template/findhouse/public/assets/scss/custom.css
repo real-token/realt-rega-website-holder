@@ -1,0 +1,70 @@
+.home-title {
+  width: 65%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.title-blue {
+  color: rgb(0, 197, 241) !important;
+}
+
+.comfort-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.rental {
+  background: #f7f7f7;
+}
+
+.reantalHomes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.w75 {
+  width: 75% !important;
+}
+
+.mission-content {
+  width: 100%;
+}
+
+.mission-tooltip {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.ToolTipPortal > div {
+   width: 400px;
+   padding: 20px !important;
+}
+
+.home-faq {
+  width: 90%;
+  margin: auto;
+}
+
+.home-faq-btn {
+  border: none !important;
+}
+
+.home-faq-btn:not(.collapsed) {
+  box-shadow: none !important;
+}
+.home-contact {
+  width: 80%;
+  margin: auto;
+}
+
+.start-partners {
+  background: #f7f7f7;
+}
+
+.home-partner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

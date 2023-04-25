@@ -4215,7 +4215,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 
 .home1_bgi1 {
-  background-image: url(../images/background/1.jpg);
+  background-image: url(../images/background/home.png);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -4229,7 +4229,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 .home1-overlay:before {
   content: "";
   background-color: rgb(29, 41, 62);
-  opacity: 0.6;
+  opacity: 0.2;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -6113,8 +6113,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 
 .property_city_home6 {
-  border: 1px solid #ebebeb;
-  border-radius: 8px;
+  border-radius: 21px;
   background-color: #ffffff;
   display: flex;
   align-items: center;
@@ -6251,7 +6250,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   border: 1px solid #ebebeb;
   border-radius: 8px;
   cursor: pointer;
-  height: 200px;
+  height: 280px;
   margin-bottom: 30px;
   overflow: hidden;
   padding: 30px 0;
@@ -6287,6 +6286,8 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 
 .icon_hvr_img_box .details {
   position: relative;
+  width: 80%;
+  margin: auto;
 }
 
 .icon_hvr_img_box:hover .details h4,
@@ -6989,6 +6990,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
   position: relative;
   text-align: center;
   transition: all 0.3s ease;
+  min-height: 400px;
 }
 
 .why_chose_us:hover {
@@ -7405,12 +7407,13 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 
 .start_partner h2 {
-  color: #ffffff;
+  color: #484848;
   line-height: 1.2;
+  margin-bottom: 0px;
 }
 
 .start_partner p {
-  color: #ffffff;
+  color: #484848;
   margin-bottom: 0;
   line-height: 1.2;
 }
