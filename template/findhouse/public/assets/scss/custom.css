@@ -28,6 +28,10 @@
   width: 75% !important;
 }
 
+.w80 {
+  width: 80% !important;
+}
+
 .mission-content {
   width: 100%;
 }
@@ -67,4 +71,8 @@
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.navbar_brand {
+  margin-bottom: 20px;
 }

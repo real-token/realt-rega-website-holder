@@ -1,22 +1,14 @@
 import { useState } from "react";
-import ToolTip from "react-portal-tooltip";
 
-import CallToAction from "../common/CallToAction";
-import CopyrightFooter from "../common/footer/CopyrightFooter";
-import Footer from "../common/footer/Footer";
-import MobileMenu from "../common/header/MobileMenu";
-import Partners from "../common/Partners";
-import Blogs from "../common/Blogs";
-import FeaturedProperties from "./FeaturedProperties";
-// import FindProperties from "./FindProperties";
 import Header from "./Header";
-import Hero from "./Hero";
-import WhyChoose from "../common/WhyChoose";
-import PopupSignInUp from "../common/PopupSignInUp";
-
-import FaqContent from "./FaqContent";
-import ComfortPlace from "./ComfortPlace";
+import MobileMenu from "./MobileMenu";
+import Banner from "./Banner";
+import BetterWays from "./BetterWays";
+import Investing from "./Investing";
 import RentalHomes from "./RentalHomes";
+import ToolTip from "react-portal-tooltip";
+import Footer from "./Footer";
+import FaqContent from "./FaqContent";
 
 const Index = () => {
   const [tooltipActive, setTooltipActive] = useState(false);
@@ -29,32 +21,10 @@ const Index = () => {
       {/* <!--  Mobile Menu --> */}
       <MobileMenu />
 
-      {/* <!-- Modal --> */}
-      <PopupSignInUp />
+      {/* <!-- Home Banner --> */}
+      <Banner />
 
-      {/* <!-- Home Design --> */}
-      <Hero />
-
-      {/* <!-- Feature Properties --> */}
-      {/* <section id="feature-property" className="feature-property bgc-f7">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 offset-lg-3">
-              <div className="main-title text-center mb40">
-                <h2>Featured Properties</h2>
-                <p>Handpicked properties by our team.</p>
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="feature_property_slider gutter-x15">
-                <FeaturedProperties />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-      {/* <!-- Property Cities --> */}
+      {/* <!-- Banner Title --> */}
       <section id="property-city" className="property-city pb30">
         <div className="container">
           <div className="main-title text-center home-title">
@@ -63,13 +33,11 @@ const Index = () => {
               wants to invest in real estate, but don&apos;t want to buy a whole home
               or deal with operational headaches.
             </h2>
-            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
           </div>
-          <div className="row">{/* <FindProperties /> */}</div>
         </div>
       </section>
 
-      {/* <!-- Why Chose Us --> */}
+      {/* <!-- Better Ways --> */}
       <section id="why-chose" className="whychose_us bgc-f7 pb30">
         <div className="container">
           <div className="main-title text-center home-title">
@@ -77,65 +45,19 @@ const Index = () => {
             {/* <p>We provide full service at every step.</p> */}
           </div>
           <div className="row">
-            <WhyChoose />
+            <BetterWays />
           </div>
         </div>
       </section>
 
-      {/* <!-- Our Blog --> */}
-      {/* <section className="our-blog bgc-f7 pb30">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 offset-lg-3">
-              <div className="main-title text-center">
-                <h2>Articles & Tips</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <Blogs />
-          </div>
-        </div>
-      </section> */}
-
-      {/* <!-- Our Partners --> */}
-      {/* <section id="our-partners" className="our-partners">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 offset-lg-3">
-              <div className="main-title text-center">
-                <h2>Our Partners</h2>
-                <p>We only work with the best companies around the globe</p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <Partners />
-          </div>
-        </div>
-      </section> */}
-
-      {/* <!-- Our Footer --> */}
-      {/* <section className="footer_one">
-        <div className="container">
-          <div className="row">
-            <Footer />
-          </div>
-        </div>
-      </section> */}
-
-      {/* <!-- Find Comfort Place --> */}
+      {/* <!-- Investing --> */}
       <section id="comfort-place" className="comfort-place pb30 bb1">
         <div className="container">
           <div className="main-title text-center home-title">
             <h2>Investing In Real Estate Has Never Been Easier</h2>
-            {/* <p>
-              Explore the greates places in the city. You won’t be disappointed.
-            </p> */}
           </div>
           <div className="row">
-            <ComfortPlace />
+            <Investing />
             <div className="parner_reg_btn text-right tac-smd comfort-btn">
               <a className="btn btn-thm2">How Works</a>
             </div>
@@ -143,6 +65,7 @@ const Index = () => {
         </div>
       </section>
 
+      {/* <!-- Rental Homes --> */}
       <section id="property-city" className="property-city pb30 rental">
         <div className="container">
           <div className="row">
@@ -158,14 +81,14 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Mission */}
+      {/* <!-- Mission --> */}
       <section id="property-city" className="property-city pb30">
         <div className="container">
-          <div className="main-title text-center home-title w75">
+          <div className="main-title text-center home-title w80">
             <h2 className="pb30">We&apos;re on a mission</h2>
             <div className="mission-content">
               <h4 className="pb20">
-                At Arrived, our mission is to empower the world to build wealth
+                At RealFraction, our mission is to empower the world to build wealth
                 through modern real estate investing.
               </h4>
               <h4 className="pb20">
@@ -214,19 +137,17 @@ const Index = () => {
               </h4>
             </div>
           </div>
-          <div className="row">{/* <FindProperties /> */}</div>
         </div>
       </section>
 
-      {/* <!-- Start Call to Action --> */}
+      {/* <!-- Footer --> */}
       <section className="start-partners pt50 pb50">
         <div className="home-contact">
-          <CallToAction />
+          <Footer />
         </div>
       </section>
 
-      {/* Faq Component */}
-
+      {/* <!-- FAQ Content --> */}
       <section className="pb20">
         <div className="home-faq">
           <div className="faq_according">
@@ -234,13 +155,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-
-      {/* <!-- Our Footer Bottom Area --> */}
-      {/* <section className="footer_middle_area pt40 pb40">
-        <div className="container">
-          <CopyrightFooter />
-        </div>
-      </section> */}
     </>
   );
 };

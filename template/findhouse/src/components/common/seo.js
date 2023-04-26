@@ -4,7 +4,7 @@ const Seo = ({ pageTitle, font }) => (
   <>
     <Head>
       <title>
-        {pageTitle && `${pageTitle} | Demo`}
+        {pageTitle && `${pageTitle} | RealFraction`}
       </title>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta

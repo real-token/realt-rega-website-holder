@@ -25,9 +25,9 @@ const FaqContent = () => {
               <div className="row">
                 <div className="col-lg-4 col-sm-6">
                   <p className="pb10">
-                    Arrived Holdings, Inc. (&quot;Arrived&quot;), as a manager
-                    of Arrived Homes, LLC operates the{" "}
-                    <span className="title-blue">arrived.com </span>website (the
+                    RealFraction Holdings, Inc. (&quot;RealFraction&quot;), as a manager
+                    of RealFraction Homes, LLC operates the{" "}
+                    <span className="title-blue">RealFraction.com </span>website (the
                     &quot;Site&quot;) and is not a broker-dealer or investment
                     advisor. All securities related activity is conducted
                     through Dalmore Group LLC, a registered broker-dealer and
@@ -42,7 +42,7 @@ const FaqContent = () => {
                   <p className="pb10">
                     You should speak with your financial advisor, accountant
                     and/or attorney when evaluating any offering. Neither
-                    Arrived, Arrived Homes, LLC, nor Dalmore makes any
+                    RealFraction, RealFraction Homes, LLC, nor Dalmore makes any
                     recommendations or provides advice about investments, and no
                     communication, through this website or in any other medium,
                     should be construed as a recommendation for any security
@@ -54,13 +54,13 @@ const FaqContent = () => {
                     of the offering circular for your consideration.
                   </p>
                   <p className="pb10">
-                    Arrived Homes, LLC is conducting public offerings pursuant
+                    RealFraction Homes, LLC is conducting public offerings pursuant
                     to Regulation A, as amended, through the Site. The{" "}
                     <span className="title-blue">
-                      offering circular for Arrived Homes, LLC
+                      offering circular for RealFraction Homes, LLC
                     </span>{" "}
                     is available. Past performance is no guarantee of future
-                    results. Investments such as those on the Arrived platform
+                    results. Investments such as those on the RealFraction platform
                     are speculative and involve substantial risks to consider
                     before investing, outlined in the respective offering
                     materials and including, but not limited to, illiquidity,
@@ -75,13 +75,13 @@ const FaqContent = () => {
                     effects of the COVID-19 pandemic remain unknown and could
                     materially impact this investment. An investment in an
                     offering constitutes only an investment in a particular
-                    series and not in Arrived Homes, LLC or the underlying
+                    series and not in RealFraction Homes, LLC or the underlying
                     asset(s). Investors should carefully review the risks
                     located in the respective offering materials for a more
                     comprehensive discussion of risk.
                   </p>
                   <p className="pb10">
-                    From time to time, Arrived Homes, LLC will seek to qualify
+                    From time to time, RealFraction Homes, LLC will seek to qualify
                     additional series offerings of securities under regulation
                     A. For offerings that have not yet been qualified, no money
                     or other consideration is being solicited and, if sent in
@@ -111,24 +111,24 @@ const FaqContent = () => {
                     SEC.
                   </p>
                   <p className="pb10">
-                    Arrived Homes, LLC does not offer refunds after an
+                    RealFraction Homes, LLC does not offer refunds after an
                     investment has been made. Please review the relevant
                     offering materials and subscription documentation for more
                     information.
                   </p>
                   <p className="pb10">
-                    An active trading market for any series of Arrived Homes,
+                    An active trading market for any series of RealFraction Homes,
                     LLC interests may not develop or be sustained. If an active
-                    public trading market for Arrived Homes, LLC series
+                    public trading market for RealFraction Homes, LLC series
                     interests does not develop or is not sustained, it may be
                     difficult or impossible for you to resell your interests at
                     any price. Even if an active market does develop, the market
                     price could decline below the amount you paid for your
-                    interests. There is no assurance that the Arrived platform
-                    will provide an active market for resales of Arrived Homes,
-                    LLC series interests. Further, without the Arrived platform,
+                    interests. There is no assurance that the RealFraction platform
+                    will provide an active market for resales of RealFraction Homes,
+                    LLC series interests. Further, without the RealFraction platform,
                     it may be difficult or impossible for you to dispose of your
-                    interests. If the market develops for any series of Arrived
+                    interests. If the market develops for any series of RealFraction
                     Homes, LLC interests, the market price of such interests
                     could fluctuate significantly for many reasons, including
                     reasons unrelated to performance, the underlying assets or
@@ -149,7 +149,6 @@ const FaqContent = () => {
             </div>
           </div>
         </div>
-        {/* End .card */}
       </div>
     </>
   );

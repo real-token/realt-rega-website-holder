@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import HeaderMenuContent from "../common/header/HeaderMenuContent";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -25,7 +24,6 @@ const Header = () => {
     >
       <div className="container-fluid p0">
         {/* <!-- Ace Responsive Menu --> */}
-
         <Link href="/">
           <a className="navbar_brand float-start dn-smd">
             <img
@@ -38,18 +36,15 @@ const Header = () => {
               src="/assets/images/header-logo2.png"
               alt="header-logo2.png"
             />
-            <span>Demo</span>
+            <span>RealFraction</span>
           </a>
         </Link>
-        {/* site logo brand */}
-
         <nav>
-          <HeaderMenuContent />
+          {/* <HeaderMenuContent /> */}
         </nav>
         {/* End .navbar */}
       </div>
     </header>
-    // {/* <!-- /.theme-main-menu --> */}
   );
 };
 

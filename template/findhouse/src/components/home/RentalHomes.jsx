@@ -6,7 +6,7 @@ const RentalHomes = () => {
     <>
       {rentalHomes.slice(0, 3).map((item) => (
         <div className="col-sm-6 col-md-6 col-lg-8 col-xl-8" key={item.id}>
-          <Link href="/listing-list-v1">
+          <Link href="#">
             <a className="property_city_home6">
               <div className="thumb">
                 <img className="img-fluid w100" src={item.img} alt="pc1.jpg" />
