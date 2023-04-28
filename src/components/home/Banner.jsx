@@ -18,7 +18,7 @@ const Banner = () => {
       title: "Easily invest in rental homes",
       subTitle1:
         "Buy shares of properties, earn rental income and appreciation",
-      subTitle2: "— let Arrived take care of the rest.",
+      subTitle2: "— let RealFraction take care of the rest.",
       propertyList: [
         {
           id: 1,
