@@ -42,8 +42,8 @@
 }
 
 .ToolTipPortal > div {
-   width: 400px;
-   padding: 20px !important;
+  width: 400px;
+  padding: 20px !important;
 }
 
 .home-faq {
@@ -75,4 +75,32 @@
 
 .navbar_brand {
   margin-bottom: 20px;
+}
+
+.details > img {
+  border-radius: 8px;
+  padding: 4px;
+}
+
+#home-item1 {
+  margin-right: 120px;
+  margin-bottom: 44px;
+}
+
+#home-item2 {
+  margin-left: 120px;
+  margin-bottom: 44px;
+}
+
+#home-item3 {
+  margin-right: 120px;
+}
+
+.feat_property {
+  transform: scale(1);
+  transition: all 1s ease-in-out;
+}
+
+.feat_property:hover {
+  transform: scale(1.1);
 }

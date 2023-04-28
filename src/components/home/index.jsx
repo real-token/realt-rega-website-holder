@@ -22,7 +22,15 @@ const Index = () => {
       <MobileMenu />
 
       {/* <!-- Home Banner --> */}
-      <Banner />
+      <section className="p0">
+        <div className="container-fluid p0">
+          <div className="home8-slider">
+            <div className="bs_carousel ">
+              <Banner />
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* <!-- Banner Title --> */}
       <section id="property-city" className="property-city pb30">
@@ -36,6 +44,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      
 
       {/* <!-- Better Ways --> */}
       <section id="why-chose" className="whychose_us bgc-f7 pb30">
