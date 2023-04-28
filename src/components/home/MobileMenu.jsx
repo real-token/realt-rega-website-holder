@@ -8,14 +8,12 @@ const MobileMenu = () => {
         <div className="header stylehome1">
           <div className="main_logo_home2 text-center">
             <img
-              className="nav_logo_img img-fluid mt20"
+              className="nav_logo_img img-fluid mt5"
               src="/assets/images/header-logo2.png"
               alt="header-logo2.png"
             />
-            <span className="mt20">RealFraction</span>
           </div>
           {/* main_logo_home2 */}
-
           {/* <ul className="menu_bar_home2">
             <li className="list-inline-item list_s">
               <Link href="/login">

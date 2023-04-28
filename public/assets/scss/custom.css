@@ -74,7 +74,7 @@
 }
 
 .navbar_brand {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .details > img {
@@ -103,4 +103,8 @@
 
 .feat_property:hover {
   transform: scale(1.1);
+}
+
+.mt5 {
+  margin-top: 5px !important;
 }
